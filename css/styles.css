@@ -14,6 +14,7 @@
 	font-weight: 400;
 	line-height: 24px;
 	font-size: 16px;
+	color: #0E2D22;
 }
 
 h1 {
@@ -70,19 +71,29 @@ button {
 	border-color: transparent;
 }
 
-.btn-style1:hover {
+.btn-style1:hover,
+.btn-style2:hover {
 	background-color: orange;
 }
 
 .btn-style2 {
-	background: #0E2D22;
+	background-color: #0E2D22;
 	border-radius: 1000px;
-	color: #FFFFFF;
+	border: none;
 	padding: 3px 17px;
+	color: #F4F1ED;
 }
 
 .btn-style2:hover {
-	background-color: orange;
+	color: #0E2D22;
+}
+
+.btn-style3 {
+	background-color: #0E2D22;
+	border-radius: 1000px;
+	color: #CBDDBF;
+	padding: 3px 17px;
+
 }
 
 main {
