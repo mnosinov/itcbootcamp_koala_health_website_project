@@ -1,0 +1,67 @@
+/* desktop styles */
+
+@media only screen and (min-width:769px) {
+	header {
+		padding: 30px;
+		max-width: 1280px;
+	}
+
+	.main-menu {
+		margin: 15px;
+	}
+
+	.main-menu-logo-group {
+		width: 137px;
+		flex: 0 1 245px;
+	}
+
+	.search {
+		flex: 0 1 245px;
+	}
+
+	.search-input-text {
+		padding: 8px;
+		min-width: 227px;
+	}
+
+	.user-menu {
+		flex: 0 1 245px;
+		width: 245px;
+	}
+
+	main {
+		max-width: 1280px;
+	}
+
+	.hero-section {
+		position: relative;
+		width: 100%;
+		top: -114px;
+	}
+
+	.hero-section img {
+		width: 50%;
+		height: 50%;
+	}
+
+	.hero-section img:nth-child(2) {
+		display: none;
+	}
+
+	.hero-text {
+		margin: 70px;
+	}
+
+	.hero-text h1 {
+		font-size: 66px;
+	}
+
+	.hero-text p {
+		margin-top: 33px;
+		line-height: 24px;
+	}
+
+	.hero-text button {
+		margin-top: 45px;
+	}
+}
