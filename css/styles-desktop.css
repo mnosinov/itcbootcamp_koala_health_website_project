@@ -3,7 +3,7 @@
 @media only screen and (min-width:769px) {
 	header {
 		padding: 30px;
-		max-width: 1280px;
+		/*max-width: 1280px;*/
 	}
 
 	.main-menu {
@@ -30,18 +30,18 @@
 	}
 
 	main {
-		max-width: 1280px;
 	}
 
 	.hero-section {
 		position: relative;
 		width: 100%;
-		top: -114px;
+		margin: -114px auto 0;
+		background-color: #F4F1ED;
 	}
 
 	.hero-section img {
-		width: 50%;
-		height: 50%;
+		width: 60%;
+		height: auto;
 	}
 
 	.hero-section img:nth-child(2) {
@@ -49,6 +49,7 @@
 	}
 
 	.hero-text {
+		width: 50%;
 		margin: 70px;
 	}
 
@@ -63,5 +64,26 @@
 
 	.hero-text button {
 		margin-top: 45px;
+	}
+
+	.how-it-works-section {
+		padding: 117px 132px;
+		display: flex;
+		background-color: #F4F1ED;
+	}
+
+	.how-it-works-section>div {
+		margin 0 32px;
+	}
+
+	.how-it-works-text {
+		max-width: 359px;
+	}
+
+	.how-it-works-text h1 {
+		font-family: 'Times New Roman';
+		font-weight: 400;
+		font-size: 44px;
+		color: #0E2D22;
 	}
 }

@@ -100,11 +100,17 @@ button {
 }
 
 main {
-	margin: 0 auto;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 .hero-section {
 	display: flex;
+	justify-content: center;
+	align-items: center;
 	background-color: #F4F1ED;
 	position: relative;
 	z-index: -1;
