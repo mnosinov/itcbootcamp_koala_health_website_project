@@ -71,12 +71,6 @@ button {
 	border-color: transparent;
 }
 
-.btn-style1:hover,
-.btn-style2:hover,
-.btn-style3:hover {
-	background-color: orange;
-}
-
 .btn-style2 {
 	background-color: #0E2D22;
 	border-radius: 1000px;
@@ -85,18 +79,19 @@ button {
 	color: #F4F1ED;
 }
 
-.btn-style2:hover,
-.btn-style3:hover {
-	color: #0E2D22;
-}
-
 .btn-style3 {
 	background-color: #0E2D22;
 	border-radius: 1000px;
+	border: none;
 	color: #CBDDBF;
 	padding: 3px 17px;
-	border: none;
 	vertical-align: text-top;
+}
+
+.btn-style1:hover,
+.btn-style2:hover,
+.btn-style3:hover {
+	background-color: orange;
 }
 
 main {
